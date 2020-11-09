@@ -302,3 +302,53 @@ nav ul li a:hover{
         right: 15%;
     }
 }
+
+@media only screen and (max-width:360px){
+    .para-1{
+        
+        display: none;
+
+    }
+
+    .para-4{
+
+        display: none;
+
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    .project-1{
+
+        top: 10%;
+        width: 80%;
+        right: 10%;
+
+    }
+
+
+    .project-2{
+        top: 40%;
+        width: 80%;
+        right: 10%;
+       
+    }
+
+
+    .project-3{
+    
+        top: 70%;
+        width: 80%;
+        right: 10%;
+    }
+
+    .project-4{
+        top: 100%;
+        width: 80%;
+        right: 10%;
+          
+    }
+
+}

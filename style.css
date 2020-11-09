@@ -303,6 +303,28 @@ nav ul li a{
 }
 
 
+@media only screen and (max-width: 360px){
+    .div{
+        /* background-color:grey; */
+        
+        top: 25%;
+        right: 10%;
+     
+    }
+
+
+    .title{
+        right: 20%;
+        font-size: 56px;
+    }
+
+    .title2{
+        right: 30%;
+        top: 60%;
+    }
+}
+
+
 
 
 

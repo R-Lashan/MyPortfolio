@@ -163,4 +163,16 @@ nav ul li a:hover{
     
 }
 
+@media only screen and (max-width: 360px){
+    .box{
+        top: 30%;
+    } 
+
+    .text2{
+        position: absolute;
+        top: 89%;
+        right: 10%;
+
+    }
+  }
 

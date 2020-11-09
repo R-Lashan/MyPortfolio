@@ -103,6 +103,7 @@ nav ul li a:hover{
 }
 .orange{
     color: black;
+    font-size: 37px;
 }
 .blue{
     color: white;
@@ -152,5 +153,12 @@ nav ul li a:hover{
     nav ul{
 
         display: none;
+    }
+}
+
+
+@media only screen and (max-width:360px){
+    .box{
+        top: 30%;
     }
 }
