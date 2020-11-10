@@ -32,17 +32,6 @@ _div.addEventListener('mousemove' , function(e) {
 
 });
 
-_Img.addEventListener('mouseover', changeWord2);
-
-
-
-function changeWord2(){
-_Img.classList.toggle("box3")
-}
-
-
-
-
 function colorText(){
   if(_Title.innerHTML == "Hello!"){
       _Title.innerHTML = "Hello!".fontcolor("black")  
