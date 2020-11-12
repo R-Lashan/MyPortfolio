@@ -92,7 +92,26 @@ nav ul li a:hover{
     color: black;
 }
 
+.project-5{
+    position: absolute;
+    top:95%;
+    width: 30%;
+    height: 30%;
+    border: 10px solid black;
+    text-align: center;
+    margin-left: 3%;
+    margin-top: 10%;
+    font-size: 80%;
+    font-family: sans-serif;   
+}
 
+
+.text5{
+    position: absolute;
+    top: 35%;
+    right: 35%;
+    color: black;
+}
 
 .project-3{
     position: absolute;
@@ -112,6 +131,13 @@ nav ul li a:hover{
     top: 35%;
     right: 25%;
     color: black;
+}
+
+.para-5{
+    position: absolute;
+    top: 130%;
+    width: 50%;
+    right: 12%;
 }
 
 .para-1{
@@ -230,7 +256,7 @@ nav ul li a:hover{
           
     }
     
-    
+  
     
     .text4{
         position: absolute;
