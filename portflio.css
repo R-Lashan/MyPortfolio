@@ -336,6 +336,10 @@ nav ul li a:hover{
 
     }
 
+    .para-5{
+        display: none;
+    }
+
     .para-4{
 
         display: none;
@@ -375,6 +379,12 @@ nav ul li a:hover{
         width: 80%;
         right: 10%;
           
+    }
+
+    .project-5{
+        top: 135%;
+        width: 80%;
+        right: 10%;
     }
 
 }
