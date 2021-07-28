@@ -4,14 +4,10 @@
     box-sizing: border-box;
     font-family: Verdana;
 }
-
 .main{
-    
     width: 100%;
     height: 100vh;
-    
 }
-
 nav{
     background-color: black;
     width: 100%;
@@ -19,22 +15,18 @@ nav{
     line-height: 80px;
     position: relative;
 }
-
 nav ul{
     float: right;
 }
-
 nav ul li{
     list-style-type: none;
     display: inline-block;
 }
-
 nav ul li a{
     padding: 30px;
     text-decoration: none;
     color: #fff;
 }
-
 nav ul li a:hover{
     transition: 0.9s all;
 
@@ -57,21 +49,15 @@ nav ul li a:hover{
     font-size: 80%;
     font-family: sans-serif;    
 }
-
-
 .text1{
     position: absolute;
     top: 35%;
     right: 25%;
     color: black;
 }
-
-
 .a{
     color: white;
 }
-
-
 .project-2{
     position: absolute;
     top:0%;
@@ -84,14 +70,12 @@ nav ul li a:hover{
     font-size: 80%;
     font-family: sans-serif;    
 }
-
 .text2{
     position: absolute;
     top: 35%;
     right: 25%;
     color: black;
 }
-
 .project-5{
     position: absolute;
     top:95%;
@@ -104,15 +88,12 @@ nav ul li a:hover{
     font-size: 80%;
     font-family: sans-serif;   
 }
-
-
 .text5{
     position: absolute;
     top: 35%;
     right: 35%;
     color: black;
 }
-
 .project-3{
     position: absolute;
     top: 0%;
@@ -125,66 +106,54 @@ nav ul li a:hover{
     font-size: 80%;
     font-family: sans-serif;    
 }
-
 .text3{
     position: absolute;
     top: 35%;
     right: 25%;
     color: black;
 }
-
 .para-5{
     position: absolute;
     top: 130%;
     width: 50%;
     right: 12%;
 }
-
 .para-1{
     position: absolute;
     top: 115%;
     width: 50%;
     right: 30%;
 }
-
 .dropImg {
     width: 40px;
     background-color: white;
 }
-  
 .rotated-menu {
     -webkit-transform: rotate(90deg);
     transition: 0.9s all;
 }
-
-  
-  .dropdown {
+.dropdown {
     position: absolute;
     top: 2.5%;
     left: 5%;
-  }
-  
-  .dropdown-content {
+}
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
- 
-  }
-  
-  .dropdown-content a {
+}  
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  
-  .dropdown a:hover {
-      background-color: #ddd;    
-    }
-  
-  .show {
-      display: block;
+}  
+.dropdown a:hover {
+    background-color: #ddd;    
+} 
+.show {
+    display: block;
 }
 
 .para-4{
@@ -193,7 +162,6 @@ nav ul li a:hover{
     width: 50%;
     right: 12%;
 }
-
 .project-4{
     position: absolute;
     top: 55%;
@@ -206,47 +174,34 @@ nav ul li a:hover{
     font-size: 80%;
     font-family: sans-serif;    
 }
-
-
-
 .text4{
     position: absolute;
     top: 35%;
     right: 15%;
     color: black;
 }
-
-
 @media only screen and (max-width: 768px){
     .project-1{
         position: absolute;
         top: 0%;
         width: 30%;
         height: 25%;
-        margin-top: 15%;
-         
+        margin-top: 15%;       
     }
-
-
     .project-2{
         position: absolute;
         top:0%;
         width: 30%;
         height: 25%;
-        margin-top: 15%;
-       
+        margin-top: 15%; 
     }
-
-
     .project-3{
         position: absolute;
         top:0%;
         width: 30%;
         height: 25%;
-        margin-top: 15%;
-       
+        margin-top: 15%;     
     }
-
     .project-4{
         position: absolute;
         top: 55%;
@@ -255,15 +210,11 @@ nav ul li a:hover{
         margin-top: 15%;
           
     }
-    
-  
-    
     .text4{
         position: absolute;
         top: 35%;
         right: 15%;
     }
-
     .para-4{
         position: absolute;
         top: 75%;
@@ -272,10 +223,7 @@ nav ul li a:hover{
     }
 
 }
-
-
-@media only screen and (max-width: 1024px){
-   
+@media only screen and (max-width: 1024px){   
     .para-4{
         position: absolute;
         top: 75%;
@@ -287,11 +235,8 @@ nav ul li a:hover{
         top: 0%;
         width: 30%;
         height: 25%;
-        margin-top: 15%;
-         
+        margin-top: 15%;         
     }
-
-
     .project-2{
         position: absolute;
         top:0%;
@@ -300,8 +245,6 @@ nav ul li a:hover{
         margin-top: 15%;
        
     }
-
-
     .project-3{
         position: absolute;
         top:0%;
@@ -310,18 +253,13 @@ nav ul li a:hover{
         margin-top: 15%;
        
     }
-
     .project-4{
         position: absolute;
         top: 50%;
         width: 30%;
         height: 25%;
-        margin-top: 15%;
-          
-    }
-    
-    
-    
+        margin-top: 15%;   
+    }  
     .text4{
         position: absolute;
         top: 35%;
@@ -331,56 +269,39 @@ nav ul li a:hover{
 
 @media only screen and (max-width:360px){
     .para-1{
-        
+       
         display: none;
-
     }
-
     .para-5{
         display: none;
     }
-
     .para-4{
-
         display: none;
-
     }
-
     nav ul{
         display: none;
     }
-
     .project-1{
-
         top: 10%;
         width: 80%;
         right: 10%;
-
     }
-
-
     .project-2{
         top: 40%;
         width: 80%;
         right: 10%;
-       
     }
-
-
     .project-3{
-    
         top: 70%;
         width: 80%;
         right: 10%;
     }
-
     .project-4{
         top: 100%;
         width: 80%;
         right: 10%;
           
     }
-
     .project-5{
         top: 135%;
         width: 80%;
