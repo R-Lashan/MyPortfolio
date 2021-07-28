@@ -4,22 +4,11 @@ let _Word = document.querySelector(".title2");
 let _div = document.querySelector(".div");
 let menu = document.getElementById('menu');
 
-_div.addEventListener('click', function(){
-if(document.body.style.backgroundColor == "white"){
-
-  document.body.style.backgroundColor = "black";
-} else {
-  document.body.style.backgroundColor = "white";
-}
-})
-
 menu.addEventListener('mouseover', dropMenu)
- 
 menu.addEventListener('mouseover', function(){
 
     menu.classList.toggle('rotated-menu')
  })
-
 
 function dropMenu() {
   document.getElementById("myDropdown").classList.toggle("show");

@@ -40,62 +40,36 @@ nav ul li a:hover{
  
     color: black;
 }
-
-.box{
-    width: 70%;
-    height: 55%;
-    position: absolute;
-    top: 31%;
-    right: 15%;
-    border: 10px solid black;
-    font-family: sans-serif;
-    background-color:orangered
-}
-
-
 .dropImg {
     width: 40px;
     background-color: white;
 }
-  
-
-  
-  .dropdown {
+.dropdown {
     position: absolute;
     top: 2.5%;
     left: 5%;
-  }
+}
   
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
  
-  }
-  
-  .dropdown-content a {
+}
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  
-  .dropdown a:hover {
-      background-color: #ddd;    
-    }
-  
-  .show {
-      display: block;
 }
-
-.text{
-    text-align: center;
-    padding-top: 100px;
-    top: 50%;
-    right: 35%;
-    font-size: 80px;
-    cursor: pointer;
+  
+.dropdown a:hover {
+    background-color: #ddd;    
+}
+  
+.show {
+    display: block;
 }
 
 .red{
@@ -113,18 +87,79 @@ nav ul li a:hover{
     -webkit-transform: rotate(90deg);
     transition: 0.9s all;
 }
-
-
-.html-box{
-    background-color: rgb(163, 113, 20);
+.html{
+    position: absolute;
+    top:0%;
+    width: 30%;
+    height: 30%;
+    border: 10px solid black;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 10%;
+    font-size: 80%;
+    font-family: sans-serif;  
 }
 
-.css-box{
-    background-color:lightblue;
+.css{
+    position: absolute;
+    top:35%;
+    width: 30%;
+    height: 30%;
+    border: 10px solid black;
+    text-align: center;
+    margin-left: 3%;
+    margin-top: 10%;
+    font-size: 80%;
+    font-family: sans-serif;
+    left:15%;   
 }
 
-.js-box{
-    background-color: yellow;
+.react{
+    position: absolute;
+    top:35%;
+    width: 30%;
+    height: 30%;
+    border: 10px solid black;
+    text-align: center;
+    margin-left: 3%;
+    margin-top: 10%;
+    font-size: 80%;
+    font-family: sans-serif;
+    left:48%; 
+}
+
+.js{
+    position: absolute;
+    top: 0%;
+    width: 30%;
+    height: 30%;
+    border: 10px solid black;
+    text-align: center;
+    margin-left: 67%;
+    margin-top: 10%;
+    font-size: 80%;
+    font-family: sans-serif;  
+}
+
+.csharp{
+    position: absolute;
+    top: 0%;
+    width: 30%;
+    height: 30%;
+    border: 10px solid black;
+    text-align: center;
+    margin-left: 3%;
+    margin-top: 10%;
+    font-size: 80%;
+    font-family: sans-serif;
+}
+
+.text{
+    padding: 20%;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 768px){

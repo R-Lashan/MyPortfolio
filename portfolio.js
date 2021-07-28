@@ -1,8 +1,6 @@
 let menu = document.getElementById('menu');
 
-
 menu.addEventListener('mouseover', dropMenu)
-
  
 function dropMenu() {
  document.getElementById("myDropdown").classList.toggle("show");

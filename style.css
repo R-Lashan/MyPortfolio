@@ -27,57 +27,37 @@
 .dropImg {
     width: 40px;
     background-color: white;
-    
 }
-  
-
-  
-  .dropdown {
+.dropdown {
     position: absolute;
     top: 2.5%;
-
     left: 5%;
-  }
-  
-  .dropdown-content {
+}
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    
- 
-  }
-
-
-  .rotated-menu {
+}
+.rotated-menu {
     -webkit-transform: rotate(90deg);
     transition: 0.9s all;
-
-  }
-
-  
-
-
-  
-  .dropdown-content a {
+}
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
+}
   
-  .dropdown a:hover {
-      background-color: #ddd;
-  }
+.dropdown a:hover {
+    background-color: #ddd;
+}
   
-  .show 
-  {
-      display: block;
+.show {
+    display: block;
 
-   }
-
-  
-
+}
 nav{
     background-color: black;
     width: 100%;
@@ -85,35 +65,27 @@ nav{
     line-height: 80px;
     position: relative;
 }
-
-
-
 nav ul{
     float: right;
     margin-right: 30px;
 }
-
 nav ul li{
     list-style-type: none;
     display: inline-block;
 }
-
 nav ul li a:hover{
     color: black;
     transition: 0.9s all;
 }
-
 nav ul li a{
     text-decoration: none;
     color: #fff;
     padding: 30px;
 }
-
 .home{
     background-color: white;
     color: black;
 }
-
 .div{
     /* background-color:grey; */
     background-color:#111;
@@ -204,9 +176,6 @@ nav ul li a{
         
     }
 }
-
-
-
 @media only screen and (max-width: 1024px){
     .div{
         width: 80%;
